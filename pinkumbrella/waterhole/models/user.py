@@ -1,5 +1,5 @@
 from django.db import models
-from waterhole.models.service import Service
+from pinkumbrella.waterhole.models.service import Service
 
 
 class User(models.Model):

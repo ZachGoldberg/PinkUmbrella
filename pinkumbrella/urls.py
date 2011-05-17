@@ -1,10 +1,14 @@
 from django.conf.urls.defaults import *
+import pinkumbrella.waterhole.views.getlocations
 
 # Uncomment the next two lines to enable the admin:
-# from django.contrib import admin
-# admin.autodiscover()
+#from django.contrib import admin
+#admin.autodiscover()
 
 urlpatterns = patterns('',
+
+    (r'^pinkumbrella/getlocations', 'pinkumbrella.waterhole.views.getlocations'),
+
     # Example:
     # (r'^pinkumbrella/', include('pinkumbrella.foo.urls')),
 
