@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Connect to Foursquare" android:id="@+id/connect" android:titleCondensed="Connect"></item>
+    <item android:titleCondensed="Debug" android:title="Debug info" android:id="@+id/debug"></item>
+</menu>
